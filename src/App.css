@@ -166,11 +166,14 @@
 }
 
 @media (max-width: 500px) {
-  .ExpenseForm {
-    grid-template-columns: 1fr;
+  .input:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
-  .input{
-    width: 100%;
+
+  .ExpenseForm .btn{
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
 }
 
