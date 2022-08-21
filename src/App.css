@@ -165,11 +165,14 @@
   }
 }
 
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
   .ExpenseForm {
     grid-template-columns: 1fr;
   }
-} */
+  .input{
+    width: 100%;
+  }
+}
 
 .input {
   padding: 1rem;
@@ -177,7 +180,6 @@
   border-radius: 5px;
   background-color: #e9e9ed;
   font-size: 1.6rem;
-  min-width: 100px;
 }
 .btn {
   font-size: 1.6rem;
